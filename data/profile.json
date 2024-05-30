@@ -1,5 +1,5 @@
 {
-  "name": "carlos Daniel Oliveira",
+  "name": "Carlos Daniel Oliveira",
   "photo": "https://avatars.githubusercontent.com/u/169535190?v=4",
   "job": "Junior Developer",
   "location": "Petropolis - RJ",
@@ -35,20 +35,20 @@
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://www.dio.me/certificate/ILDF8BKB/share",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://www.dio.me/certificate/JCTLMJ7R/share",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "",
+      "name": "Sem experiencia profissonal na area.",
       "period": "",
-      "description": ""
+      "description": "Aberto a propostas"
     }
   ]
 }
