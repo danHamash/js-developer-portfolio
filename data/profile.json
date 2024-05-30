@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "carlos Daniel Oliveira",
+=======
+  "name": "Carlos Danile Oliveira",
+>>>>>>> 715e3d62cc071270785c07179ce27390a04a9440
   "photo": "https://avatars.githubusercontent.com/u/169535190?v=4",
   "job": "Junior Developer",
   "location": "Petropolis - RJ",
@@ -26,7 +30,10 @@
       "Boa comunicação",
       "Pontualidade",
       "Trabalho em equipe"
+<<<<<<< HEAD
     
+=======
+>>>>>>> 715e3d62cc071270785c07179ce27390a04a9440
     ]
   },
   "languages": [
