@@ -76,7 +76,7 @@
         grid-template-areas:
             "photo title"
             "photo information"
-        ;
+        
     }
 
     .header .photo {
