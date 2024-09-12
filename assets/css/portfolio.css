@@ -7,8 +7,8 @@
     padding: 0;
     list-style: none;
 }
-
 .portfolio li {
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

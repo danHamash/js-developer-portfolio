@@ -10,7 +10,7 @@
 
 .acordeon.open,
 .acordeon:hover {
-    background-color: #55569E;
+    background-color: #ad9c4c;
     border-color: #55569E;
 }
 
@@ -26,7 +26,6 @@
     color: #fff;
     border: none;
 }
-
 .acordeon .trigger h2 {
     margin: 0;
     font-size: 1.5rem;

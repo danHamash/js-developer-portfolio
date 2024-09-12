@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
 }
+.skills h3{
+    color: black;
+}
 
 .skills .tools ul {
     display: flex;
@@ -32,6 +35,7 @@
 }
 
 .skills .personal ul li {
+    color: black;
     margin-left: 2rem;
     padding: .5rem
 }

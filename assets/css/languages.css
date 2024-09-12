@@ -9,6 +9,7 @@
 }
 
 .languages li {
+    color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
