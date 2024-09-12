@@ -43,9 +43,11 @@
       "url": "https://www.dio.me/certificate/JCTLMJ7R/share",
       "github": true
     },
-    "name": "Recriando HBO Max",
+   
+   { "name": "Recriando HBO Max",
       "url": "https://github.com/danHamash/HBO-Max-clone-css",
       "github": true
+  },
   ],
   "professionalExperience": [
     {
