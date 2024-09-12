@@ -19,14 +19,12 @@
         "name": "html",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
       }
-      
     ],
     "softSkills": [
       "Organização",
       "Boa comunicação",
       "Pontualidade",
       "Trabalho em equipe"
-    
     ]
   },
   "languages": [
@@ -43,11 +41,11 @@
       "url": "https://www.dio.me/certificate/JCTLMJ7R/share",
       "github": true
     },
-   
-   { "name": "Recriando HBO Max",
+    {
+      "name": "Recriando HBO Max",
       "url": "https://github.com/danHamash/HBO-Max-clone-css",
       "github": true
-  }
+    }
   ],
   "professionalExperience": [
     {
