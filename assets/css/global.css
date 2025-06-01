@@ -17,6 +17,7 @@ a {
     color: #fff;
     text-decoration: none;
     font-size: .8rem;
+    cursor: pointer;
 
 }
 a:hover {
