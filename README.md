@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Carlos Daniel</h1>
 <h3 align="center">Computer Science student at Estácio & Front-End by DIO.</h3>
 
-- 👨‍💻 All of my projects are available at [gitHub](gitHub)
+- 👨‍💻 All of my projects are available at [https://github.com/danHamash](https://github.com/danHamash)
 
 - 💬 Ask me about **angular, Css, html, java script**
 
