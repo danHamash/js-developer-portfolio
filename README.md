@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Carlos Daniel</h1>
 <h3 align="center">Computer Science student at Estácio & Front-End by DIO.</h3>
 
-- 🌱 I’m currently learning **Starting the journey from FrontEnd to becoming FullStack.**
-
-- 👨‍💻 All of my projects are available at [some of my projects are on gitHub](some of my projects are on gitHub)
+- 👨‍💻 All of my projects are available at [gitHub](gitHub)
 
 - 💬 Ask me about **angular, Css, html, java script**
 
