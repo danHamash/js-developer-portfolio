@@ -269,6 +269,9 @@ footer p {
   margin-right: 20%;
   font-size: .5rem;
 }
+.feature-card{
+    padding: 0;
+}
     #sobre {
         flex-direction: column;
         position: relative;
@@ -306,7 +309,7 @@ footer p {
         margin-top: 2rem;
     }
     #servicos {
-        margin:  0 2rem;
+        margin: 0;
     }
     #servicos h2 {
         text-align: center;
