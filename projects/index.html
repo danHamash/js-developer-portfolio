@@ -1,71 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projetos</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon1.png" />
-    <link rel="icon" type="image/png" sizes="40x40" href="../assets/img/favicon/favicon1.png" />
-    <link rel="stylesheet" href="../assets/css/projects.css">
-    <link rel="stylesheet" href="../assets/css/global.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
-</head>
-<body class="body_background fade-in">
-    <header class="header_container">
-        <div class="header_content">
-            <div class="header_content_title ">
-                    <h1> Bem vindo a pagina de projetos!</h1>
-            </div>
-        </div>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/projects.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="nav-container">
+        <div class="logo">DanHamash</div>
+        <nav>
+          <button class="hamburger" aria-label="Abrir menu">&#9776;</button>
+          <ul class="nav-links">
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main class="main_container">
-        <div class="main_content">
-
-            <section class="main_projects_content">
-                
-                    <ul class="projetos">
-                        <li>
-                            <div>
-                                    <a href="https://danhamash.github.io/HBO-Max-clone-css/"  target="_blank" rel="noopener noreferrer">
-                                        <img src="../assets/img/projects-img/HBO-MAX-cover.png" alt="Projeto HBO Max">
-                                    </a>
-                            </div>
-                                <a href="https://danhamash.github.io/HBO-Max-clone-css/" target="_blank" rel="noopener noreferrer">HBO Max</a>
-
-                        </li>
-
-                                <li>
-                                    <div>
-                                        <a href="https://danhamash.github.io/lista-de-compras/" target="_blank" rel="noopener noreferrer">
-                                            <img src="../assets/img/projects-img/lista-de-compras.png" alt="Projeto Lista de compras" rel="noopener noreferrer">
-                                        </a>
-                                    </div>
-                                    <a href="https://danhamash.github.io/lista-de-compras/" target="_blank" rel="noopener noreferrer">Lista de compras</a>
-
-                                </li>
-                                <li>
-                            <div>
-                                    <a href="https://danhamash.github.io/desafio-Detona-Ralph/"  target="_blank" rel="noopener noreferrer">
-                                        <img src="../assets/img/projects-img/Detona Ralph.png" alt="Projeto HBO Max">
-                                    </a>
-                            </div>
-                                <a href="https://danhamash.github.io/desafio-Detona-Ralph/" target="_blank" rel="noopener noreferrer">Jogo - Detona Ralph</a>
-
-                        </li>
-
-
-  
-                    </ul>
-
-            </section>
-
+    <main>
+      <section class="hero" id="home">
+        <img class="bg-video" src="../assets/img/projects-img/header.jpg" ></img>
+        <div class="hero-content" data-aos="fade-up">
+          <h1>DaHamash em Busca do conhecimento.</h1>
+          <p>Quem vence sem riscos, vence sem glória.</p>
+          <p class="autor" >Augusto Cury</p>
+          <a href="#contato" class="btn-primary">contato</a>
+          
         </div>
+      </section>
+      <section class="projetos-title">
+        <h1 >
+            Principais Projetos
+        </h1>
+      </section>
+      <section id="servicos">
+        <h2 data-aos="fade-right">Landding page</h2>
+        <div class="features">
+          <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-card-img">
+                <img src="../assets/img/projects-img/projeto1.png" alt="">
+            </div>
+            <a href="https://danhamash.github.io/StreamVerse/" target="_blank"> SteamVerse </a>
+            <p>Criando uma landding-page para stream de filmes e séries.</p>
+          </div>
+          <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-card-img">
+                <img src="../assets/img/projects-img/projeto2.png" alt="">
+            </div>
+            <a href="https://danhamash.github.io/Dan-Tech/ " target="_blank"> DanTech </a>
+            <p>Criando uma landding-page para venda de cursos.</p>
+          </div>
+          <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-card-img">
+                <img src="../assets/img/projects-img/projeto3.png" alt="">
+            </div>
+            <a href="https://danhamash.github.io/Multe-servicos/" target="_blank"> MultiServiços </a>
+            <p>Criando uma landding-page para uma empresa de serviços.</p>
+          </div>
+        </div>
+      </section>
+      <section id="servicos">
+        <h2 data-aos="fade-right">Jogos</h2>
+        <div class="features">
+          <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-card-img">
+                <img src="../assets/img/projects-img/projeto4.png" alt="">
+            </div>
+            <a href="https://danhamash.github.io/jogo-da-memoria/" target="_blank"> Jogo da memoria pokemon </a>
+            <p>Projeto de um jogo da memoria com tematica do pokemon.</p>
+          </div>
+          <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-card-img">
+                <img src="../assets/img/projects-img/projeto5.png" alt="">
+            </div>
+            <a href="https://danhamash.github.io/desafio-Detona-Ralph/">Jogo do detona Ralph</a>
+            <p>Projeto de um jogo a com tematica do detona ralph.</p>
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="sobre">
+        <div class="sobre-img"></div>
+        <div class="sobre-descrição">
+          <h2 data-aos="fade-left">Sobre Mim</h2>
+          <p data-aos="fade-left" data-aos-delay="150">
+            Jovem estudante de ciência da computação. Buscando melhorar dia após dia. 
+            Fazendo projetos de landding page para empresas e organizações.
+            Tenho grandes objetivos e um deles é me tornar um grande nome na área da programação.
+        </p>
+        </div>
+      </section>
+
+      <section id="contato">
+        <h2 data-aos="fade-up">Entre em Contato</h2>
+        <form action="https://formspree.io/f/xqalzllq" method="POST" data-aos="fade-up" data-aos-delay="100" style="max-width: 600px; margin: 2rem auto; display: flex; flex-direction: column; gap: 1rem;">
+          <input type="text" name="nome" placeholder="Seu Nome" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px" />
+          <input type="email" name="email" placeholder="Seu Email" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px" />
+          <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px"></textarea>
+          <button type="submit" class="btn-primary" style="text-align: center; cursor: pointer;">Enviar</button>
+        </form>
+      </section>
     </main>
+
     <footer>
-            <a class="more_projects" style="text-decoration: none; padding-left:.5rem; display: flex; margin: .8rem auto; " href="https://www.hamashdan.com.br/" rel="noopener noreferrer"> &#8592; voltar ao inicio</a>
-            
-        </footer>
-</body>
+      <p>&copy; 2025 Empresa Multinacional. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <script src="../assets/js/project.js" defer></script>
+  </body>
 </html>
