@@ -196,6 +196,9 @@ section {
 #servicos {
     margin: 0 4rem;
 }
+#servicos h2 {
+    margin: 3rem 0 1rem 0;
+}
 #contato h2 {
         text-align: center;
     }
