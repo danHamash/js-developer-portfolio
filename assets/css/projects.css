@@ -190,6 +190,9 @@ section {
     flex-direction: row;
     height: 700px;
 }
+#servicos{
+  margin:0 4rem;
+}
 
 .sobre-img {
     background-image: url(../../assets/img/projects-img/sobre.png);
