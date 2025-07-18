@@ -135,9 +135,9 @@ header {
     font-weight: bold;
 }
 
-.projetos-title h1{
-text-align: center;
-font-size: 3rem;
+.projetos-title h1 {
+    text-align: center;
+    font-size: 3rem;
 }
 
 section {
@@ -176,12 +176,13 @@ section {
     font-size: 1rem;
     color: #666;
 }
-.autor{
-  font-size: .8rem !important ; 
-  margin-top: -34px; 
-  margin-right: 13rem; 
-  text-align: end; 
-  font-style:italic ;
+
+.autor {
+    font-size: .8rem !important;
+    margin-top: -34px;
+    margin-right: 13rem;
+    text-align: end;
+    font-style: italic;
 }
 
 #sobre {
@@ -189,10 +190,15 @@ section {
     display: flex;
     flex-direction: row;
     height: 700px;
+    margin: 64px;
 }
-#servicos{
-  margin:0 4rem;
+
+#servicos {
+    margin: 0 4rem;
 }
+#contato h2 {
+        text-align: center;
+    }
 
 .sobre-img {
     background-image: url(../../assets/img/projects-img/sobre.jpg);
@@ -207,8 +213,9 @@ section {
     margin-left: 1rem;
     padding: 50px;
 }
-#contato{
-  padding: 2rem;
+
+#contato {
+    padding: 2rem;
 }
 
 footer {
@@ -258,20 +265,25 @@ footer p {
     .hero {
         height: 600px;
     }
-.hero-content h1{
-  font-size: 2rem;
-  margin-top: 5rem;
-}
-.hero-content p{
-  font-size: .8rem;
-}
-.autor{
-  margin-right: 20%;
-  font-size: .5rem;
-}
-.feature-card{
-    padding: 0;
-}
+
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+
+    .hero-content p {
+        font-size: .8rem;
+    }
+
+    .autor {
+        margin-right: 20%;
+        font-size: .5rem;
+    }
+
+    .feature-card {
+        padding: 0;
+    }
+
     #sobre {
         flex-direction: column;
         position: relative;
@@ -308,9 +320,11 @@ footer p {
     #contato h2 {
         margin-top: 2rem;
     }
+
     #servicos {
         margin: 0;
     }
+
     #servicos h2 {
         text-align: center;
     }
