@@ -141,7 +141,7 @@ header {
 }
 
 section {
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .features {
@@ -329,5 +329,7 @@ footer p {
 
     #servicos h2 {
         text-align: center;
+        margin: 4rem 0 2rem 0;
+        font-size: 1.8rem;
     }
 }
