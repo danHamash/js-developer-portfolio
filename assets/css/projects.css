@@ -304,6 +304,9 @@ footer p {
     #contato h2 {
         margin-top: 2rem;
     }
+    #servicos {
+        margin:  0 2rem;
+    }
     #servicos h2 {
         text-align: center;
     }
