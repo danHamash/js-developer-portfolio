@@ -272,6 +272,7 @@ footer p {
     #sobre {
         flex-direction: column;
         position: relative;
+        width: 100%;
     }
 
     .sobre-img {
