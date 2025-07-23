@@ -79,6 +79,7 @@ header {
     justify-content: center;
     color: white;
     text-align: center;
+    align-items: center;
 }
 
 .hero::before {
@@ -215,6 +216,7 @@ section {
 .sobre-descrição {
     margin-left: 1rem;
     padding: 50px;
+    width: 50%;
 }
 
 #contato {
@@ -277,16 +279,18 @@ footer p {
 
     .hero-content h1 {
         font-size: 2rem;
-        margin-top: 5rem;
+        margin-top: 0;
     }
 
     .hero-content p {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .autor {
-        margin-right: 20%;
         font-size: .5rem;
+        align-items: center;
+        text-align: center;
+        width: 100%;
     }
 
     .feature-card {
@@ -326,6 +330,7 @@ footer p {
         margin: 0;
         padding: 2rem;
         text-align: center;
+        width: 100%;
     }
 
     #contato h2 {
@@ -345,3 +350,4 @@ footer p {
         display: flex;
     }
 }
+
