@@ -427,13 +427,12 @@ input{
     padding-left: .5rem;
 }
 textarea{
+    color: #fff;
 height: 80px;
 width: 100%;
 background: transparent;
 margin-top: .4rem;
-}
-textarea::placeholder{
-    padding: .5rem;
+padding: .5rem;
 }
 
 footer{
