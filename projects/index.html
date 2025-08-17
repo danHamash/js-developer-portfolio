@@ -559,12 +559,12 @@
                                 <div class="form_user">
                                     <div class="form_name">
                                     <label class="form_title card_title" for="firstname">Nome</label>
-                                    <input class="border" type="text" name="nome" placeholder="Seu Nome" required />
+                                    <input class="border" type="text" name="nome" placeholder="Seu Nome" minlength="3" required />
                                     </div>
 
                                     <div class="form_email">
                                         <label class="form_title card_title" for="email"> Email</label>
-                                        <input class="border" type="email" name="email" placeholder="Seu@email.com" required />
+                                        <input class="border" type="email" name="email" placeholder="Seu@email.com" minlength="8" required />
                                     </div>
                                 </div>
                         
@@ -572,7 +572,7 @@
                         <!-- O assunto que você verá no seu e-mail -->
                                 <div class="form_about">
                                     <label class="form_title card_title" for="subject">Assunto</label>
-                                    <input  class="border" type="text" name="_subject" placeholder="Assunto da mensagem" />
+                                    <input  class="border" type="text" name="_subject" placeholder="Assunto da mensagem" minlength="5" maxlength="30" />
                                 </div>
                         
 
